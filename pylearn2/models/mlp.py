@@ -19,7 +19,7 @@ from theano.compat.six.moves import reduce, xrange
 from theano import config
 from theano.gof.op import get_debug_values
 from theano.sandbox.rng_mrg import MRG_RandomStreams
-from theano.sandbox.cuda.dnn import dnn_available, dnn_pool
+#from theano.sandbox.cuda.dnn import dnn_available, dnn_pool
 from theano.tensor.signal.downsample import max_pool_2d
 import theano.tensor as T
 
